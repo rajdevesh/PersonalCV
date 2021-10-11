@@ -18,11 +18,12 @@ h2{
 }
 h3{
     font-family: 'Mate', serif;
+    font-size: 40px;
 }
 p{
     margin-top: 0px;
     font-family: 'Mate', serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 .profile{
     position: relative;

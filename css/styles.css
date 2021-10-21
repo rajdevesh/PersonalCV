@@ -7,29 +7,88 @@ body{
 h1{
     position: relative;
     margin-left: 0px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-right: 0px;
     font-family: 'Sacramento', cursive;
-    font-size: 50px;
+    color: #334756;
+    font-size: 6.5rem;
     margin-bottom: 0px;
 }
 h2{
     font-family: 'Cookie', cursive;
-    font-size: 50px;
+    font-size: 4.5rem;
+    font-weight: normal;
+    margin-top: 0px;
+    color: #334756;
 }
 h3{
     font-family: 'Mate', serif;
-    font-size: 41px;
+    color: #548CA8;
+    font-size: 3.5rem;
+    margin-top: 0px;
 }
 p{
-    margin-top: 0px;
+    margin: 0px auto 50px auto;
     font-family: 'Mate', serif;
-    font-size: 25px;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+
 }
 .profile{
     position: relative;
-    
+    display: inline;
+    margin-top: 100px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 70%;
 }
+
+.Hello{
+    width: 50%;
+    margin: 100px auto 0px 30px;
+}
+.btn {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
 
 .top-container{
   
@@ -38,6 +97,9 @@ p{
 }
 .middle-container{
     height: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
 }
 .bottom-container{
     
@@ -73,4 +135,7 @@ p{
     text-align: center;
     font-family: 'Sacramento', cursive;
     font-size: 35px;
+}
+a{
+    color: #548CA8;
 }
